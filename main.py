@@ -39,7 +39,6 @@ while ''.join(hidden_word) != rand_word:
                     print(f"Загадане слово {rand_word}")
                     break
                 print(''.join(hidden_word))
-                choice_count += 1
 
     elif answer != rand_word:
         print("Не вірно.")
