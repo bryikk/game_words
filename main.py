@@ -44,4 +44,3 @@ while ''.join(hidden_word) != rand_word:
     elif answer != rand_word:
         print("Не вірно.")
         print(''.join(hidden_word))
-        choice_count += 1
